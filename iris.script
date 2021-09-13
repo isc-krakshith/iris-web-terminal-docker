@@ -1,0 +1,12 @@
+    ; run installer to create namespace
+    do $SYSTEM.OBJ.Load("/opt/irisapp/Installer.cls", "ck")
+    set sc = ##class(App.Installer).setup() 
+    new $namespace
+    set namespace = "IRISAPP"
+    set $namespace=namespace
+    set app = $System.CSP.GetDefaultApp(namespace) _ "/"
+    zn "%SYS"
+    Do ##class(Security.Users).UnExpireUserPasswords("*")
+
+    ; call your initial methods here
+    halt
