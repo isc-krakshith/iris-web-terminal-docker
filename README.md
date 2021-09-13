@@ -31,6 +31,6 @@ http://localhost:9092/terminal/
 
 5. Open Management Portal (_SYSTEM/SYS) and see Web Terminal classes in IRISAPP Namespace. Web application cofiguration is called '/terminal'
 ```
-http://localhost:/9092/csp/sys/utilhome.csp
+http://localhost:9092/csp/sys/utilhome.csp
 ```
 ...
