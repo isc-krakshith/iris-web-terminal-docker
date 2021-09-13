@@ -9,19 +9,19 @@ Make sure you have [git](https://git-scm.com/book/en/v2/Getting-Started-Installi
 Clone/git pull the repo into any local directory
 
 ```
-$ git clone https://github.com/isc-krakshith/iris-web-terminal-docker.git
+git clone https://github.com/isc-krakshith/iris-web-terminal-docker.git
 ```
 
 Open the terminal in this directory and run:
 
 ```
-$ docker-compose build
+docker-compose build
 ```
 
 3. Run the IRIS container with your project:
 
 ```
-$ docker-compose up -d
+docker-compose up -d
 ```
 
 4. Open Web Terminal
