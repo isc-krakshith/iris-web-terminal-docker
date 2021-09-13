@@ -24,10 +24,7 @@ docker-compose build
 docker-compose up -d
 ```
 
-4. Open Web Terminal
-```
-http://localhost:9092/terminal/
-```
+4. Open [Web Terminal](http://localhost:9092/terminal/)
 
 5. Open [Management Portal](http://localhost:9092/csp/sys/utilhome.csp) (_SYSTEM/SYS) and see Web Terminal classes in IRISAPP Namespace. Web application cofiguration is called '/terminal'
 
